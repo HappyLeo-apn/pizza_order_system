@@ -22,6 +22,7 @@ class AjaxController extends Controller
    else{
       $pizza = Product::orderBy('created_at', 'asc')->get();
    }
+   
     return response()->json($pizza, 200);
    }
 
