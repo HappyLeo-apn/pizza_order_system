@@ -75,14 +75,14 @@
                             </div>
                             <div class="ml-2">
 
-                                <div class="dropdown">
+                                {{-- <div class="dropdown">
 
                                     <select name="sorting" id="sortOption" class="form-control">
                                         <option value="" selected>Sorted By...</option>
                                         <option value="asc">Ascending</option>
                                         <option value="desc">Descending</option>
                                     </select>
-                                </div>
+                                </div> --}}
 
                             </div>
                         </div>
